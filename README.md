@@ -1,4 +1,4 @@
-# Comercio de 15 minutos en Barcelona
+# Comercio de los 15 minutos en Barcelona
 
 ## Hackaton Tech4Good, BCN 2023
 
