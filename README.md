@@ -33,7 +33,7 @@ La tabla suministrada por el equipo Data Science se ha transformado en una base 
 
 ### Frontend
 
-### Participantes
+### Entidades participantes
 #### Organización
 El evento ha sido organizado por [Barcelona Activa](https://www.barcelonactiva.cat/) y [Mobile World Capital Barcelona](https://mobileworldcapital.com/), en el Cibernàrium de Barcelona, 20 y 21 de junio de 2023.
 #### Empresas
