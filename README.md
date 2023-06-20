@@ -32,6 +32,7 @@ Los datasets extraídos de Open Data BCN ofrecen el inventario de los ítems des
 La tabla suministrada por el equipo Data Science se ha transformado en una base de datos MySQL. Para su consulta, se ha generado una aplicación API REST de Java, con el framework SpringBoot, con distintos endpoints para acceso de equipo Frontend.
 
 ### Frontend
+\<pendiente\>
 
 ### Entidades participantes
 #### Organización
