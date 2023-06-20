@@ -32,7 +32,9 @@ Los datasets extraídos de Open Data BCN ofrecen el inventario de los ítems des
 La tabla suministrada por el equipo Data Science se ha transformado en una base de datos MySQL. Para su consulta, se ha generado una aplicación API REST de Java, con el framework SpringBoot, con distintos endpoints para acceso de equipo Frontend.
 
 ### Frontend
-\<pendiente\>
+Hemos desarrollado la interficie de usuario con Reac. Utilizando styled-components para que mediante una entrada de texto el usuario pueda encontrar el barrio de Barcelona
+Finalmente los datos se han procesado desde archivo JSON
+Tambien hemos procesado los datos para visualizarlos en un mapa de la ciudad
 
 ### Entidades participantes
 #### Organización
