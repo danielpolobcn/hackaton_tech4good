@@ -2,6 +2,9 @@
 
 ## Hackaton Tech4Good, BCN 2023
 
+### Set up
+Para trabajar con el Backend en localhost se debe ejecutar el script de la base de datos y comprobar que las credenciales asignadas en java en el archivo "application.properties". Una vez realizado estas acciones puedes iniciar el servidor de Spring Boot. En caso de que la API ya tenga host puedes pasar a la parte de Front.
+
 ### Equipo
 Guillem Albo, Monica Fanlo, Gloria Figueras, Borja Garcia-Mila, Cristian Moller, Daniel Polo 
 
