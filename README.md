@@ -16,11 +16,11 @@ Esta herramienta tiene una utilidad informativa, con dos públicos destinatarios
 
 ### Datasets
 Las estadísticas utilizadas para la elaboración del índice sintético de proximidad se han extraído del portal Open Data BCN, en formato CSV:
-- [Cens d'activitats econòmiques en planta baixa de la ciutat de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/cens-activitats-comercials)
-- [Mercats i fires al carrer de la ciutat de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/mercats-fires-carrer)
-- [Mercats municipals de la ciutat de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/mercats-municipals)
-- [Grans centres comercials de la ciutat de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/grans-centres-comercials)
-- [Galeries comercials de la ciutat de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/galeries-comercials)
+- [Censo de actividades económicas en planta baja de la ciudad de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/cens-activitats-comercials)
+- [Mercados y ferias en la calle de la ciudad de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/mercats-fires-carrer)
+- [Mercados municipales de la ciudad de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/mercats-municipals)
+- [Grandes centros comerciales de la ciudad de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/grans-centres-comercials)
+- [Galerías comerciales de la ciudad de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/galeries-comercials)
 
 ### Data Science
 Los datasets extraídos de Open Data BCN ofrecen el inventario de los ítems descritos en su título  con su asignación geográfica por distrito y barrio. En consecuencia, se han procesado para obtener recuentos agrupados por barrio para cada tipo de servicio (mercados, ferias, galerías comerciales, centros comerciales y tipologías de actividad). De las tipologías de actividad se han derivado dos nuevas variables para conocer la variedad total de actividades se encuentran en cada barrio y qué proporción de éstas son de frecuentación cotidiana. Con estas dos variables, junto con la presencia o ausencia de mercados, ferias, galerías o centros comerciales se ha construido con ponderación el índice de proximidad. El resultado es una tabla con tantas líneas como barrios, donde las columnas contemplan el índice alcanzado y el valor de cada variable que contribuye al índice. Este bloque se ha trabajado con Python y la librería Pandas.
