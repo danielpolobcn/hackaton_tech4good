@@ -2,14 +2,14 @@
 
 ## Hackaton Tech4Good, BCN 2023
 
-### Set up
-Para trabajar con el Backend en localhost se debe ejecutar el script de la base de datos y comprobar que las credenciales asignadas en java en el archivo "application.properties". Una vez realizado estas acciones puedes iniciar el servidor de Spring Boot. En caso de que la API ya tenga host puedes pasar a la parte de Front.
+### Setup
+Para trabajar con el backend en localhost se debe ejecutar el script de la base de datos y comprobar las credenciales asignadas en java en el archivo "application.properties". Una vez realizadas estas acciones se puede inicializar el servidor de Spring Boot. En caso de que la API ya tenga host se puede pasar directamente a la parte frontend.
 
 ### Equipo
 Guillem Albo, Monica Fanlo, Gloria Figueras, Borja Garcia-Mila, Cristian Moller, Daniel Polo 
 
 ### Marco
-Fruto de la evolución que experimentan las propuestas para el desarrollo sostenible y la mejora de la calidad de vida en las ciudades, en la actualidad ha hecho fortuna el concepto de la «ciudad de los 15 minutos». Éste transmite la idea de que, para facilitar la vida cotidiana de sus habitantes i en paralelo reducir el impacto ambiental de su actividad, la densidad y la localización de las actividades cotidianas deberían organizarse de tal forma que se puedan realizar en la proximidad del domicilio. Esta alta accesibilidad de las actividades redundaría en una menor necesidad de desplazarse para su realización, liberando así tiempo para los residentes y reduciendo la necesidad de recurrir a transportes motorizados. Dentro de la actividad cotidiana de la ciudad, el comercio es un elemento fundamental por ser el vector de suministro de bienes y servicios de consumo frecuente, por lo que su configuración tiene una fuerte incidencia sobre los trayectos que deberán hacer los ciudadanos.
+Fruto de la evolución que experimentan las propuestas para el desarrollo sostenible y la mejora de la calidad de vida en las ciudades, en la actualidad ha hecho fortuna el concepto de la **«ciudad de los 15 minutos»**. Éste transmite la idea de que, para facilitar la vida cotidiana de sus habitantes i en paralelo reducir el impacto ambiental de su actividad, la densidad y la localización de las actividades cotidianas deberían organizarse de tal forma que se puedan realizar en la proximidad del domicilio. Esta alta accesibilidad de las actividades redundaría en una menor necesidad de desplazarse para su realización, liberando así tiempo para los residentes y reduciendo la necesidad de recurrir a transportes motorizados. Dentro de la actividad cotidiana de la ciudad, el comercio es un elemento fundamental por ser el vector de suministro de bienes y servicios de consumo frecuente, por lo que su configuración tiene una fuerte incidencia sobre los trayectos que deberán hacer los ciudadanos.
 
 ### Objetivo
 Desarrollar una aplicación que informe sobre cuánto contribuye al objetivo «ciudad de los 15 minutos» el tejido comercial en cada barrio de la ciudad de Barcelona. Más específicamente, la aplicación genera un índice sintético con rango 0-10 para describir el grado de proximidad del comercio a partir de múltiples estadísticas sobre tipología y actividad comercial en los barrios.
