@@ -26,6 +26,34 @@ Las estadísticas utilizadas para la elaboración del índice sintético de prox
 Los datasets extraídos de Open Data BCN ofrecen el inventario de los ítems descritos en su título  con su asignación geográfica por distrito y barrio. En consecuencia, se han procesado para obtener recuentos agrupados por barrio para cada tipo de servicio (mercados, ferias, galerías comerciales, centros comerciales y tipologías de actividad). De las tipologías de actividad se han derivado dos nuevas variables para conocer la variedad total de actividades que se encuentran en cada barrio y qué proporción de éstas son de frecuentación cotidiana. Con estas dos variables, junto con la presencia o ausencia de mercados, ferias, galerías o centros comerciales se ha construido con ponderación el índice de proximidad. El resultado es una tabla con tantas líneas como barrios, donde las columnas contemplan el índice alcanzado y el valor de cada variable que contribuye al índice. Este bloque se ha trabajado con Python y la librería Pandas.
 
 ### Backend
-
+La tabla suministrada por el equipo Data Science se ha transformado en una base de datos MySQL. Para su consulta, se ha generado una aplicación API REST de Java, con el framework SpringBoot, con distintos endpoints para acceso de equipo Frontend.
 
 ### Frontend
+
+### Participantes
+#### Organización
+El evento ha sido organizado por [Barcelona Activa](https://www.barcelonactiva.cat/) y [Mobile World Capital Barcelona](https://mobileworldcapital.com/), en el Cibernàrium de Barcelona, 20 y 21 de junio de 2023.
+#### Empresas
+- [Agbar](https://www.agbar.es/)
+- [Barcelona Supercomputing Center](https://www.bsc.es/)
+- [Bayer](https://www.bayer.com/en/)
+- [CaixaBank](https://www.caixabank.es/)
+- [CloudBlue](https://www.cloudblue.com/)
+- [IBM](https://www.ibm.com/es-es)
+- [Pepsico](https://www.pepsico.es/)
+- [Sage](https://www.sage.com/es-es/)
+- [Schneider](https://www.se.com/es/es/)
+- [Wolters Kluwer](https://www.wolterskluwer.com/es)
+- [Zurich](https://www.zurich.es/)
+#### Escuelas
+- [IT Academy de Barcelona Activa](https://www.barcelonactiva.cat/itacademy)
+- [42 Barcelona Fundació Telefònica](https://www.42barcelona.com/)
+- [Asociación Factoría F5](https://factoriaf5.org/)
+- [Assembler Institute of Technology](https://assemblerinstitute.com/)
+- [EAE Business School Barcelona](http://eae%20business%20school%20barcelona/)
+- [Fundación Esplai](https://campus.fundacionesplai.org/)
+- [Ironhack](https://www.ironhack.com/es/es)
+- [Le Wagon](https://www.lewagon.com/es)
+- [MigraCode Barcelona](https://migracode.openculturalcenter.org/)
+- [Nuclio Digital School](https://nuclio.school/)
+- [Pime Coneixement SL](https://www.pimec.org/)
