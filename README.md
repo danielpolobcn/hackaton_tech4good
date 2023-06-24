@@ -1,4 +1,4 @@
-# Comercio de los 15 minutos en Barcelona
+# Comercio de los 15 minutos en Barcelona 
 
 ## Hackaton Tech4Good, BCN 2023
 
@@ -7,6 +7,9 @@ Para trabajar con el backend en localhost se debe ejecutar el script de la base 
 
 ### Equipo
 Guillem Albo, Monica Fanlo, Gloria Figueras, Borja Garcia-Mila, Cristian Moller, Daniel Polo 
+
+### Web
+https://iris611.com/com15/
 
 ### Marco
 Fruto de la evolución que experimentan las propuestas para el desarrollo sostenible y la mejora de la calidad de vida en las ciudades, en la actualidad ha hecho fortuna el concepto de la **«ciudad de los 15 minutos»**. Éste transmite la idea de que, para facilitar la vida cotidiana de sus habitantes y en paralelo reducir el impacto ambiental de su actividad, la densidad y la localización de las actividades cotidianas deberían organizarse de tal forma que se puedan realizar en la proximidad del domicilio. Esta alta accesibilidad de las actividades redundaría en una menor necesidad de desplazarse para su realización, liberando así tiempo para los residentes y reduciendo la necesidad de recurrir a transportes motorizados. Dentro de la actividad cotidiana de la ciudad, el comercio es un elemento fundamental por ser el vector de suministro de bienes y servicios de consumo frecuente, por lo que su configuración tiene una fuerte incidencia sobre los trayectos que deberán hacer los ciudadanos.
