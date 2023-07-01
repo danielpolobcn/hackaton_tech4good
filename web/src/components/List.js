@@ -1,30 +1,34 @@
 import { React, useState } from 'react'
-import { data } from '../data/datos';
+import { datosBarriosPosition } from '../data/datosBarriosPosition';
 import { DivResults, DivResultScore, Result, DivInfo, GoodDiv, BadDiv } from './List.styled';
 
-function List(props) {
+function List({ input }) {
 
-    const filteredDataNeighbors = data.filter((barri) => {
+    const filteredDataNeighbors = datosBarriosPosition.filter((barri) => {
 
-        if (props.input.length < 4) {
+        if (input.length < 3) {
             const result = "";
             return result;
-        } else if (barri.name.toLocaleLowerCase().includes(props.input)) {
-            console.log({ barri })
+        } else if (barri.name.toLocaleLowerCase().includes(input)) {
+            /* console.log({ barri }) */
             return barri;
         }
     })
 
-    console.log({ filteredDataNeighbors })
     const rankingData = filteredDataNeighbors.map((neighbor) => {
+
         return (
             <DivResults key={neighbor.id}>
                 <DivResultScore>
-                    <Result color="#63beffa7">{neighbor.score.toFixed(2)}
+                    <Result score={neighbor.score}>
+                        <strong>{neighbor.score.toFixed(2)}</strong>
                     </Result>
                 </DivResultScore>
                 <DivInfo>
                     <h1 >{neighbor.name}</h1>
+                    <br />
+                    <hr />
+                    <br />
                     {neighbor.fires && <GoodDiv>- Hay ferias o mercados recurrentes en el barrio</GoodDiv>}
                     {neighbor.mercats && <GoodDiv>- Dispone de algún mercado municipal cercano</GoodDiv>}
                     {!neighbor.centres && <BadDiv>- Hay algún gran centro comercial cercano que puede desequilibrar el tejido comercial</BadDiv >}

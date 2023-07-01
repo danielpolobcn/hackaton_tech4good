@@ -3,10 +3,10 @@ import styled from "styled-components";
 import { NavLink } from 'react-router-dom';
 
 const greyBorder = "#4f4f4f";
-const pinkyBorder = "rgba(255, 99, 132, 0.2)";
+const pinkyBorder = "rgba(99, 198, 255, 0.2)";
 const pinky = "rgba(255, 99, 132, 1)";
 const greeny = "#005F9E";
-const greenyHover = "#359107";
+const greenyHover = "#078191";
 const yellowy = "#ffb91d";
 
 
@@ -17,7 +17,7 @@ color: #adadad;
 export const DivBarGridLogin = styled.div`
 display: grid;
 position: relative;
-z-index: 10;
+z-index: 100;
 height: 105px;
 grid-template-columns: 1fr 1fr 7fr 1fr ;
 align-items: center;
@@ -46,13 +46,23 @@ flex-wrap: no-wrap;
 font-size: 2rem;
 color: #00589C;
 
-@media(max-width: 768px) {
+@media(max-width: 769px) {
   position: relative;
   display: flex;
   flex-wrap: no-wrap;
    max-width: 200px; 
    font-size: 1.5rem;
+   margin-right: 35px;
     }
+
+ @media(max-width: 700px) {
+  position: relative;
+  display: flex;
+  flex-wrap: no-wrap;
+   max-width: 200px; 
+   font-size: 1.5rem;
+   margin-right: 0px;
+    }   
 
 `;
 
@@ -154,7 +164,7 @@ margin-top: 20px;
 export const DivMenu = styled.div`
 width: 100%;
 margin: 10px 0;
-font-size: 1.3rem;
+font-size: 1.2rem;
 font-weight: 600;
 display: flex;
 justify-content: center;
@@ -167,15 +177,16 @@ list-style-type: none;
 `;
 
 export const LiMenu = styled.li`
-padding: 5px 25px;
+padding: 5px 35px;
 border-bottom: 2px dotted blue;
 background-color: white;
 list-style-type: none;
 `;
 
 export const NavbarLink = styled(NavLink)`
-padding: 15px 17px;
-font-size: 1.2rem;
+padding: 15px 7px;
+margin-right: 30px;
+font-size: 1.1rem;
 text-decoration: none;
 color:${greeny};
 transition: all 0.2s ease -in -out;
@@ -184,16 +195,20 @@ transition: all 0.2s ease -in -out;
   margin-bottom: -4px;*/
   color: ${greenyHover};
   z-index: 101;
-  text-shadow: 2px 2px 5px rgba(255, 255, 140, 0.7);
+  text-shadow: 2px 2px 5px rgba(140, 253, 255, 0.7);
 }
  &:active{
   color: ${pinky};
-  box-shadow: 2px 2p 2px #fffaded2;
+  box-shadow: 2px 2p 2px #defbffd2;
 };
-@media(max-width: 768px) {
+
+@media(max-width: 769px) {
 padding: 15px 5px;
+margin: 0 12px;
   }
 `;
+
+
 
 export const DivUser = styled.div`
 font-size: 0.7rem;

@@ -17,105 +17,144 @@ body {
 
 h1 {
   color: #005F9E;
-  font-size: 2rem;
-  font-family: 'MuseoModerno', cursive;
+  font-size: 4.7vmin;
+  line-height: 6vmin;
+  font-family: 'Mitr','MuseoModerno', sans-serif;
 }
 
 h2 {
-  font-family: 'Montserrat', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  color: #464646;
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-size: 3.5vmin;
+  color: #6b5f6b;
 }
 
 hr {
-  border-top: 1px dotted red;
+  border-top: 1px dotted rgb(0, 115, 255);
 }
 
+.left5 {
+  margin-left: 5px;
+}
+
+.right5 {
+  margin-right: 5px;
+}
+.noLine {
+  text-decoration: none;
+}
 #menu a.active {
-  color: #359107;
-  text-shadow: 0 0 2px #fff0f7, 0 0 3px #00fff2;
+  color: #078191;
+  text-shadow: 0 0 2px #f5fff0, 0 0 3px #00fff2;
+  top:-1.2px;
   position: relative;
 }
 
 #menu a.active::after {
   position: absolute;
-  border-bottom: 4px solid #07915a;
+  border-bottom: 4px solid #078191;
   left: -0px;
   width: 100%;
   bottom: 10px;
   content: '';
   transition: width .3s;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
-/*#menu a:hover:after {
-	width: 110%;
-	border-bottom: 4px solid #FC0;
-}
-
- #menu a.active:hover:after {
+#menu a.active:hover:after {
 	width: 0%;
-	border-bottom: 4px solid #FC0;
-} */
+	border-bottom: 4px solid #078191;
+} 
+/* after*/
+.menu::after {
+  position: relative;
+  border-bottom: 4px solid #073e91;
+  left: 10px;
+  width: 0px;
+  bottom: 30px;
+  content: '';
+  transition: width .3s;
+  display: flex;
+  justify-content: center;
+}
+
+.menu::after:hover {
+  width: 100%;
+  
+  border-bottom: 4px solid #078191;
+}
+
+/* after
 
 .contentGrid {
   display: grid;
   grid-template-columns: 2fr 1fr;
-}
+}*/
 
 canvas {
-  border: 1px dotted red;
+  border: 0px dotted red;
 }
 
 .chart-container {
   position: relative;
   margin: 5px;
-  height: 50vh;
-  width: 70vw;
-  max-width: 740px;
+  height: 500px;
+  width: 90vw;
+  max-width: 940px;
 }
 
-.greyBtn {
-  background-color: rgba(145, 145, 145);
-}
 
-.pinkBtn {
-  background-color: rgba(255, 99, 132);
-}
 
 @media screen and (max-width: 768px) {
-  h1 {
-    font-size: 1.3rem;
-  }
-
-  .contentGrid {
-    /* grid-template-columns: auto 210px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+ /*  h1 {
+    font-size: 1.7rem;
+  } */
 
   .chart-container {
     width: 500px;
-    max-width: 97%;
-  }
-
-
-}
-
-@media(min-width: 1900px) {
-  .contentGrid {
-    max-width: 1920px;
-    display: grid;
-    grid-template-columns: 4fr 2fr;
+    max-width: 90%;
   }
 }
 
-@media(min-width: 2000px) {
-  .contentGrid {
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 7fr 4fr;
-  }
+@media screen and (max-width: 425px) {
+ /*  h1 {
+    font-size: 1.35rem;
+  } */
+
+    .chart-container {
+      width: 300px;
+      max-width: 90%;
+    }
+}
+
+.select {
+  height: 30px;
+  border-radius: 25px;
+  margin: 30px 10px 15px 12px;
+  padding-left: 15px;
+  padding-right: 12px;
+}
+
+.map {
+  position: relative;
+  z-index: 10;    
+  height: 475px;
+  width: auto;
+}
+
+.marker {
+  font-size: 3rem;
+  color: red;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.txtWhite {
+  color: white;
+  padding-right: 5px;
 }

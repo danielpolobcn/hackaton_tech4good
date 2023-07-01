@@ -1,31 +1,41 @@
 import styled from "styled-components";
+import bgfoto from '../assets/img/mercado-2.jpg'
 
 export const DivContent = styled.div`
-width: 100vw;
-margin: 0 auto;
+/* width: 100vw; 
+margin: 0 auto;*/
 display: flex;
 justify-content: center;
 text-align: center;
-position: relative;
+/* position: relative; */
+width: 100vw;
+min-height: calc(100vh - 105px);
+height: 100%;
+background-image: url(${bgfoto});
+  background-repeat: repeat;
+ background-attachment: fixed;  /* */
+  background-position: center;
+  background-size: cover;
+
 @media screen and (max-width: 769px){
     flex-direction: column;
 }
 `;
 
 export const DivHome = styled.div`
-position: absolute;
-z-index: 5;
+/* position: absolute;
+z-index: 5; */
 width: 70%;
 max-width: 750px;
 border: 1px dotted transparent;
-margin: 100px auto;
-padding: 30px;
+margin: 70px auto;
+padding: 50px;
 background-color: rgba(255, 255, 255, 0.9);
 
 @media screen and (max-width: 769px){
     font-size: 0.9rem;
     width: 100%;
-    padding: 30px 0 1px 15px;
+    padding: 30px;
 }
 `;
 
@@ -50,8 +60,7 @@ object-fit: cover;
 
 @media screen and (max-width: 769px){
     width: auto;
-    height: 100vh;
-    
+    height: 100vh;    
     margin: 0;
 }
 

@@ -1,4 +1,4 @@
-export const data = [
+export const datosBarriosPosition = [
     {
         id: 1,
         name: "El Raval",
@@ -9,10 +9,11 @@ export const data = [
         galeries: true,
         centres: true,
         score: 9.0,
+        position: [41.37586025741973, 2.1697925583517175],
     },
     {
         id: 2,
-        name: "El barrio gótico",
+        name: "El Barrio Gótico",
         quotidia: false,
         variacio: true,
         fires: false,
@@ -20,6 +21,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 5.0,
+        position: [41.38496619710614, 2.1728860685586056],
     },
     {
         id: 3,
@@ -31,6 +33,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 9.0,
+        position: [41.379355342300066, 2.1907261002005587],
     },
     {
         id: 4,
@@ -42,6 +45,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 9.0,
+        position: [41.388823985514534, 2.1806494854049374],
     },
     {
         id: 5,
@@ -53,6 +57,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 5.0,
+        position: [41.397958253028555, 2.1808823360723624],
     },
     {
         id: 6,
@@ -64,6 +69,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 10.0,
+        position: [41.40482549254483, 2.174563025853693],
     },
     {
         id: 7,
@@ -75,6 +81,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 8.0,
+        position: [41.394232990276855, 2.167641203461999],
     },
     {
         id: 8,
@@ -86,6 +93,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 8.0,
+        position: [41.39024132558729, 2.1532761650997028],
     },
     {
         id: 9,
@@ -97,6 +105,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 6.0,
+        position: [41.385279600672796, 2.1482910750648383],
     },
     {
         id: 10,
@@ -108,6 +117,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 9.0,
+        position: [41.378082571707324, 2.1591678479947056],
     },
     {
         id: 11,
@@ -119,6 +129,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 3.0,
+        position: [41.3657315240564, 2.1572328670041285],
     },
     {
         id: 12,
@@ -130,6 +141,7 @@ export const data = [
         galeries: false,
         centres: true,
         score: 2.0,
+        position: [41.3523403547986, 2.167578693694608],
     },
     {
         id: 13,
@@ -141,6 +153,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 7.0,
+        position: [41.35932329180517, 2.1375705143816606],
     },
     {
         id: 14,
@@ -151,7 +164,8 @@ export const data = [
         mercats: false,
         galeries: false,
         centres: false,
-        score: 1.0,
+        score: 1.001,
+        position: [41.370241932769495, 2.145130357726517],
     },
     {
         id: 15,
@@ -163,6 +177,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 8.0,
+        position: [41.37500267992891, 2.1438104434500938],
     },
     {
         id: 16,
@@ -174,6 +189,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 1.0,
+        position: [41.368533485990895, 2.1367480311548186],
     },
     {
         id: 17,
@@ -185,6 +201,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 3.0,
+        position: [41.37425163223729, 2.1271519344525256],
     },
     {
         id: 18,
@@ -196,6 +213,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 5.0,
+        position: [41.37629189878102, 2.1355063076498086],
     },
     {
         id: 19,
@@ -207,10 +225,11 @@ export const data = [
         galeries: true,
         centres: true,
         score: 5.0,
+        position: [41.38511276133587, 2.1181931933345144],
     },
     {
         id: 20,
-        name: "La Materrnitat i Sant Ramon",
+        name: "La Maternitat i Sant Ramon",
         quotidia: true,
         variacio: false,
         fires: true,
@@ -218,6 +237,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 7.0,
+        position: [41.380347149792286, 2.1154337029388137],
     },
     {
         id: 21,
@@ -229,6 +249,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 5.0,
+        position: [41.38862973619708, 2.1087143096153502],
     },
     {
         id: 22,
@@ -240,10 +261,11 @@ export const data = [
         galeries: false,
         centres: false,
         score: 5.0,
+        position: [41.41585512389733, 2.09422997446994],
     },
     {
         id: 23,
-        name: "Sarria",
+        name: "Sarrià",
         quotidia: true,
         variacio: false,
         fires: true,
@@ -251,10 +273,11 @@ export const data = [
         galeries: true,
         centres: true,
         score: 9.0,
+        position: [41.40282573102512, 2.1187386977660645],
     },
     {
         id: 24,
-        name: "Las Tres Torres",
+        name: "Les Tres Torres",
         quotidia: true,
         variacio: false,
         fires: true,
@@ -262,6 +285,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 6.0,
+        position: [41.39963048694626, 2.1290480823757028],
     },
     {
         id: 25,
@@ -273,6 +297,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 9.0,
+        position: [41.410665272821085, 2.1302090506904396],
     },
     {
         id: 26,
@@ -284,6 +309,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 4.0,
+        position: [41.397048380867886, 2.1423607145109327],
     },
     {
         id: 27,
@@ -295,6 +321,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 3.0,
+        position: [41.4069127599225, 2.1449501234284125],
     },
     {
         id: 28,
@@ -306,6 +333,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 2.0,
+        position: [41.41526179247992, 2.141625788288026],
     },
     {
         id: 29,
@@ -317,6 +345,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 1.0,
+        position: [41.41852189342995, 2.1483275345107082],
     },
     {
         id: 30,
@@ -328,6 +357,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 2.0,
+        position: [41.41219310181522, 2.1538147676395782],
     },
     {
         id: 31,
@@ -339,6 +369,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 4.0,
+        position: [41.401728879524114, 2.1575204585916827],
     },
     {
         id: 32,
@@ -350,10 +381,11 @@ export const data = [
         galeries: true,
         centres: false,
         score: 4.0,
+        position: [41.406504109068635, 2.164519932422642],
     },
     {
         id: 33,
-        name: "El Baix Guinardà",
+        name: "El Baix Guinardó",
         quotidia: true,
         variacio: false,
         fires: true,
@@ -361,10 +393,11 @@ export const data = [
         galeries: false,
         centres: false,
         score: 5.0,
+        position: [41.41202069524204, 2.1679111459563516],
     },
     {
         id: 34,
-        name: "Can Barà",
+        name: "Can Baró",
         quotidia: true,
         variacio: false,
         fires: false,
@@ -372,10 +405,11 @@ export const data = [
         galeries: false,
         centres: false,
         score: 1.0,
+        position: [41.415843285653466, 2.160605317664383],
     },
     {
         id: 35,
-        name: "El Guinardà",
+        name: "El Guinardó",
         quotidia: true,
         variacio: false,
         fires: false,
@@ -383,6 +417,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 4.0,
+        position: [41.416534222245154, 2.1747459531188764],
     },
     {
         id: 36,
@@ -394,6 +429,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 1.0,
+        position: [41.42593415401032, 2.1642261983923534],
     },
     {
         id: 37,
@@ -405,6 +441,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 2.0,
+        position: [41.42322228420768, 2.155297910815923],
     },
     {
         id: 38,
@@ -416,10 +453,11 @@ export const data = [
         galeries: true,
         centres: false,
         score: 2.0,
+        position: [41.422781113767975, 2.1461243745747782],
     },
     {
         id: 39,
-        name: "Sant Genàs dels Agudells",
+        name: "Sant Genís dels Agudells",
         quotidia: true,
         variacio: false,
         fires: true,
@@ -427,6 +465,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 5.0,
+        position: [41.4253376622995, 2.137300064789846],
     },
     {
         id: 40,
@@ -438,6 +477,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 5.0,
+        position: [41.39582711426612, 2.136013788449414],
     },
     {
         id: 41,
@@ -449,6 +489,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 1.0,
+        position: [41.431733586475815, 2.1436770822957767],
     },
     {
         id: 42,
@@ -460,6 +501,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 1.0,
+        position: [41.42865585736441, 2.153160096247987],
     },
     {
         id: 43,
@@ -471,6 +513,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 9.0,
+        position: [41.42843668480196, 2.1495949978472977],
     },
     {
         id: 44,
@@ -482,6 +525,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 1.0,
+        position: [41.42885480554006, 2.174603012167098],
     },
     {
         id: 45,
@@ -493,10 +537,11 @@ export const data = [
         galeries: false,
         centres: false,
         score: 2.0,
+        position: [41.43391767515648, 2.1786543192283614],
     },
     {
         id: 46,
-        name: "El Turà de la Peira",
+        name: "El Turó de la Peira",
         quotidia: true,
         variacio: false,
         fires: true,
@@ -504,6 +549,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 6.0,
+        position: [41.431872355489595, 2.168981678066257],
     },
     {
         id: 47,
@@ -515,6 +561,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 1.0,
+        position: [41.434770444641494, 2.1652955514684153],
     },
     {
         id: 48,
@@ -526,6 +573,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 3.0,
+        position: [41.43885663088465, 2.1679947746617603],
     },
     {
         id: 49,
@@ -537,6 +585,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 7.0,
+        position: [41.44439536693244, 2.1638185781338772],
     },
     {
         id: 50,
@@ -548,10 +597,11 @@ export const data = [
         galeries: true,
         centres: false,
         score: 2.0,
+        position: [41.23041368042916, 1.750999215043252],
     },
     {
         id: 51,
-        name: "Verdun",
+        name: "Verdum",
         quotidia: true,
         variacio: false,
         fires: false,
@@ -559,6 +609,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 1.0,
+        position: [41.44231335958305, 2.175548831106278],
     },
     {
         id: 52,
@@ -570,6 +621,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 7.0,
+        position: [41.44242190117852, 2.182490407747422],
     },
     {
         id: 53,
@@ -581,6 +633,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 7.0,
+        position: [41.44917879923115, 2.1834403816810504],
     },
     {
         id: 54,
@@ -592,6 +645,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 3.0,
+        position: [41.43669497049649, 2.2012033677728495],
     },
     {
         id: 55,
@@ -603,6 +657,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 9.0,
+        position: [41.42991183046133, 2.191521815459033],
     },
     {
         id: 56,
@@ -614,6 +669,7 @@ export const data = [
         galeries: true,
         centres: false,
         score: 7.0,
+        position: [41.423784155067914, 2.1880967301253444],
     },
     {
         id: 57,
@@ -625,6 +681,7 @@ export const data = [
         galeries: false,
         centres: false,
         score: 7.0,
+        position: [41.8989109, 1.876548],
     },
     {
         id: 58,
@@ -636,6 +693,7 @@ export const data = [
         galeries: false,
         centres: true,
         score: 4.0,
+        position: [41.41076980876723, 2.1852206395857334],
     },
     {
         id: 59,
@@ -647,6 +705,7 @@ export const data = [
         galeries: true,
         centres: true,
         score: 9.0,
+        position: [41.41069467653545, 2.1886000641870536],
     },
     {
         id: 60,
@@ -658,27 +717,6 @@ export const data = [
         galeries: false,
         centres: false,
         score: 2.0,
-    },
-    {
-        id: 61,
-        name: "Pedralbes",
-        quotidia: true,
-        variacio: false,
-        fires: true,
-        mercats: false,
-        galeries: false,
-        centres: false,
-        score: 5.0,
-    },
-    {
-        id: 62,
-        name: "Pedralbes",
-        quotidia: true,
-        variacio: false,
-        fires: true,
-        mercats: false,
-        galeries: false,
-        centres: false,
-        score: 5.0,
+        position: [41.39608661146053, 2.1879690220612313],
     },
 ];

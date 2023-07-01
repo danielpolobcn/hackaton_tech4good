@@ -1,8 +1,10 @@
 import { BrowserRouter, Route, Routes, Outlet } from 'react-router-dom';
 import Home from '../pages/Home';
-import LocalsDatos from '../pages/LocalsDatos';
-import LocalsDatosIndice from '../pages/LocalsDatosIndice'
+import LocalsDatosMap from '../pages/LocalsDatosMap';
+import LocalsDatosBarri from '../pages/LocalsDatosBarri';
+import LocalsDatosChart from '../pages/LocalsDatosChart';
 import ErrPage from '../pages/ErrPage';
+import Footer from '../components/Footer';
 
 import NavBar from '../components/NavBar';
 
@@ -11,8 +13,9 @@ const Router = () => (
         <Routes>
             <Route element={<LayoutHome />}>
                 <Route path="/" element={<Home />} />
-                <Route path="/ranks" element={<LocalsDatosIndice />} />
-                <Route path="/map" element={<LocalsDatos />} /> 
+                <Route path="/ranks" element={<LocalsDatosBarri />} />
+                <Route path="/chart" element={<LocalsDatosChart />} />
+                <Route path="/map" element={<LocalsDatosMap />} />
             </Route>
             <Route element={<Layout />}>
 
@@ -39,6 +42,7 @@ const LayoutHome = () => {
         <>
             <NavBar />
             <Outlet />
+            <Footer />
         </>
     )
 }

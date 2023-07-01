@@ -2,17 +2,14 @@ import { useState } from 'react';
 import logo from '../assets/img/logo.png';
 import { DivBarGridLogin, DivImg, LogoImg, DivLoginRight, DivLogin, DivLoginLeft, DivLoginLeftLinks, MenuMobile, DivUser, DivUserMob } from './NavBar-styled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-
-
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom'
 import { DivMenu, LiMenu, NavbarLink } from './NavBar-styled';
 
 
 const NavBarLogin = () => {
 
-
     const [isActive, setIsActive] = useState(false);
-
 
     return (
 
@@ -20,7 +17,8 @@ const NavBarLogin = () => {
 
             <DivLoginLeft>
                 <MenuMobile className='menumobile'>
-                    <FontAwesomeIcon onClick={() => { setIsActive(!isActive) }} icon={faBars} size="2xl" style={{ color: "#005792", }} />
+                    <FontAwesomeIcon onClick={() => { setIsActive(!isActive) }}
+                        icon={isActive ? faXmark : faBars} size="2xl" style={{ color: "#005792", }} />
                 </MenuMobile>
                 {isActive && (
                     <DivLoginLeftLinks>
@@ -34,15 +32,22 @@ const NavBarLogin = () => {
                         <NavbarLink
                             style={{
                             }}
+                            to="/chart" onClick={() => { setIsActive(!isActive) }}>
+                            <LiMenu>GRAFICO</LiMenu>
+                        </NavbarLink>
+
+                        <NavbarLink
+                            style={{
+                            }}
                             to="/ranks" onClick={() => { setIsActive(!isActive) }}>
-                            <LiMenu>INDICE</LiMenu>
+                            <LiMenu>BUSCADOR</LiMenu>
                         </NavbarLink>
 
                         <NavbarLink
                             style={{
                             }}
                             to="/map" onClick={() => { setIsActive(!isActive) }}>
-                            <LiMenu>MAP</LiMenu>
+                            <LiMenu>MAPA BARCELONA</LiMenu>
                         </NavbarLink>
 
                         <br /><br />
@@ -50,29 +55,38 @@ const NavBarLogin = () => {
                 )}
 
             </DivLoginLeft>
+            <Link to="/" className='noLine'>
+                <DivImg>
 
-            <DivImg>
-                <LogoImg src={logo} alt="comerç15" /> <strong >
-                    Comerç15'
-                </strong>
-            </DivImg>
+                    <LogoImg src={logo} alt="comerç15" /> <strong >
+                        Comerç15'
+                    </strong>
+                </DivImg>
+            </Link>
 
             <DivMenu id='menu'>
-                <NavbarLink
+                {/* <NavbarLink className="menu"
                     style={{
                     }}
                     to="/">
                     HOME
-                </NavbarLink>
+                </NavbarLink> */}
 
-                <NavbarLink
+                <NavbarLink className="menu"
                     style={{
                     }}
-                    to="/ranks">
+                    to="/chart">
                     INDICE
                 </NavbarLink>
 
-                <NavbarLink
+                <NavbarLink className="menu"
+                    style={{
+                    }}
+                    to="/ranks">
+                    BARRIO
+                </NavbarLink>
+
+                <NavbarLink className="menu"
                     style={{
                     }}
                     to="/map">
