@@ -6,6 +6,7 @@ import { useMap } from 'react-leaflet/hooks';
 //import Popup from '../components/Popup';
 import { Marker, Popup } from 'react-leaflet';
 import { datosBarriosPosition } from '../data/datosBarriosPosition';
+import { DivMapa } from './LocalsDatosIndice.styled';
 
 const LocalsDatosMap = () => {
     //idBarri has to be greater than 0 to initially show a neigbourhood with score on the map
@@ -35,7 +36,7 @@ const LocalsDatosMap = () => {
     }
 
     return (
-        <>
+        <DivMapa>
             <select name="selectBarri" onChange={e => handleChangeSelect(e)} className='select'>
                 <option value="0" defaultValue={'Selecciona un barrio ...'}
                 >Selecciona un barrio ...</option>
@@ -49,14 +50,14 @@ const LocalsDatosMap = () => {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 <Marker position={position}>
-                    <Popup>
-                        <strong> {nameBarri}</strong><br />tiene un índice de proximidad de:   <strong> {indexProx}</strong>.
+                    <Popup className='pop'>
+                        <strong> {nameBarri}</strong><br /> índice de proximidad:   <strong> {indexProx}</strong>.
                     </Popup>
                 </Marker>
             </MapContainer>
 
 
-        </>
+        </DivMapa>
     )
 }
 export default LocalsDatosMap;

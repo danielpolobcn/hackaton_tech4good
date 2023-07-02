@@ -33,14 +33,14 @@ const NavBarLogin = () => {
                             style={{
                             }}
                             to="/chart" onClick={() => { setIsActive(!isActive) }}>
-                            <LiMenu>GRAFICO</LiMenu>
+                            <LiMenu>GRAFICO INDICE</LiMenu>
                         </NavbarLink>
 
                         <NavbarLink
                             style={{
                             }}
                             to="/ranks" onClick={() => { setIsActive(!isActive) }}>
-                            <LiMenu>BUSCADOR</LiMenu>
+                            <LiMenu>BUSCADOR POR BARRIO</LiMenu>
                         </NavbarLink>
 
                         <NavbarLink

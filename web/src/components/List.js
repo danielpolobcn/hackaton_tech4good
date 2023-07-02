@@ -19,9 +19,9 @@ function List({ input }) {
 
         return (
             <DivResults key={neighbor.id}>
-                <DivResultScore>
-                    <Result score={neighbor.score}>
-                        <strong>{neighbor.score.toFixed(2)}</strong>
+                <DivResultScore score={neighbor.score}>
+                    <Result>
+                        <strong>{neighbor.score.toFixed(0)}</strong>
                     </Result>
                 </DivResultScore>
                 <DivInfo>

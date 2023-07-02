@@ -19,7 +19,7 @@ margin: 30px auto 5px auto;
 export const InputDatos = styled.input`
 font-size:1.2rem;
 margin: 10px;
-padding: 12px 15px;
+padding: 10px 15px;
 border-radius: 25px;
 min-width: 400px; 
 max-width: 500px;
@@ -33,7 +33,7 @@ background-color: white;
  
 @media(max-width: 425px) {
     width: 90%;
-    min-width: 150px; 
+    min-width: 150px;
   } 
 `;
 
@@ -41,6 +41,9 @@ export const InputNumScores = styled(InputDatos)`
 min-width: 50px; 
 max-width: 90px;
 text-align: center;
+@media(max-width: 425px) {
+    padding: 5px 15px; 
+  } 
 `;
 
 export const DivLeyenda = styled.div`

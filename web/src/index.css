@@ -147,6 +147,17 @@ canvas {
   color: red;
 }
 
+.leaflet-container {
+  font-family: "Montserrat", "Helvetica Neue", Arial, Helvetica, sans-serif; 
+  /* font-size: 12px; */
+  font-size: 0.80rem;
+  line-height: 1.5;
+}
+
+.pop {
+  display: block;
+}
+
 .material-symbols-outlined {
   font-variation-settings:
     'FILL' 0,
@@ -154,7 +165,11 @@ canvas {
     'GRAD' 0,
     'opsz' 48
 }
+
 .txtWhite {
   color: white;
-  padding-right: 5px;
+}
+
+.padRight {
+  padding: 0 15px;
 }

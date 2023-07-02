@@ -8,8 +8,7 @@ display: flex;
 justify-content: center;
 text-align: center;
 /* position: relative; */
-width: 100vw;
-min-height: calc(100vh - 105px);
+min-height: calc(100vh - 205px);
 height: 100%;
 background-image: url(${bgfoto});
   background-repeat: repeat;
